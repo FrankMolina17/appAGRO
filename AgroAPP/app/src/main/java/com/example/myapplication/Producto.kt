@@ -65,5 +65,29 @@ val productosDummy = listOf(
         precio = 22.50,
         imagenResId = R.drawable.image7,
         descripcion = "Herbicida selectivo y de contacto utilizado principalmente en el cultivo de arroz para el control pre y post-emergente de malezas gramíneas y de hoja ancha.\n\nIngrediente Activo: Pendimethalin (Pendimetalina al 40%).\nPresentaciones: Concentrado emulsionable en envases de 1 Litro y bidones/galones de 9.5 Litros."
+    ),
+    Producto(
+        id = 8,
+        nombre = "Urea Prilada / Granular Agripac",
+        tipo = "Fertilizante",
+        precio = 32.00,
+        imagenResId = R.drawable.image8,
+        descripcion = "Es el fertilizante nitrogenado sólido con mayor concentración disponible (46% de Nitrógeno uréico). Se presenta en forma de gránulos (fina/prilada o gruesa/granular). Su función principal es estimular el crecimiento vegetativo, acelerar la división celular y favorecer el desarrollo del follaje, hojas verdes y tallos robustos gracias a su rol clave en la síntesis de clorofila."
+    ),
+    Producto(
+        id = 9,
+        nombre = "Humus de Lombriz Cribosol",
+        tipo = "Fertilizante",
+        precio = 14.50,
+        imagenResId = R.drawable.image9,
+        descripcion = "Es un abono orgánico 100% natural de aspecto terroso, suave e inodoro, obtenido mediante la digestión de residuos orgánicos por parte de la lombriz roja californiana (Eisenia foetida). Aporta una altísima carga de microorganismos benéficos, ácidos húmicos y fúlvicos que mejoran la estructura del suelo, facilitan la retención de agua y desbloquean nutrientes atrapados."
+    ),
+    Producto(
+        id = 10,
+        nombre = "Cloruro de Potasio (Muriato de Potasio) Agrogen",
+        tipo = "Fertilizante",
+        precio = 28.00,
+        imagenResId = R.drawable.image10,
+        descripcion = "Es la fuente de potasio más utilizada a nivel mundial debido a su alta concentración (60% de Potasio expresado como K₂O) y alta solubilidad. El potasio es fundamental para regular la apertura y cierre de estomas (ayudando a la planta a soportar sequías), activar enzimas y mejorar el llenado, peso, sabor y calidad final de los frutos o granos, además de otorgar resistencia contra plagas."
     )
 )

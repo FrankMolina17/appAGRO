@@ -23,11 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 
-/**
- * Composable STATELESS: recibe el producto ya seleccionado (elevado desde
- * ProductoApp) y una lambda onBackClick para regresar al catálogo.
- * Requisito de la rúbrica: TopAppBar con flecha de regreso.
- */
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProductoDetalleScreen(producto: Producto, onBackClick: () -> Unit) {
